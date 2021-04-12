@@ -19,7 +19,7 @@ This audit was done to confirm the voting results for the district election, so 
 ## Election Audit Summary
 The script used in this audit can be modified to use for any election, as long as the votes are recorded in a CSV file.
 
-For example, if the CSV file uses a different format to record votes, you can edit these two lines so they read the correct rows.
+For example, if the CSV file uses a different format to record votes, you can edit these two lines so they read the correct rows:
 
 `candidate_name = row[2]`
 
