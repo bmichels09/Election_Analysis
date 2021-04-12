@@ -20,7 +20,9 @@ This audit was done to confirm the voting results for the district election, so 
 The script used in this audit can be modified to use for any election, as long as the votes are recorded in a CSV file.
 
 For example, if the CSV file uses a different format to record votes, you can edit these two lines so they read the correct rows.
+
 `candidate_name = row[2]`
+
 `county_name = row[1]`
 
 If the script is used for a local election, you can remove the code sections that deal with counties since the county isn't relevant.
